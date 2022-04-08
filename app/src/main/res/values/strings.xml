@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="header_one">Get a Quote Online Now!</string>
+    <string name="header_two">AUTO INSURANCE</string>
+    <string name="button_one">AUTO NL</string>
+    <string name="button_two">AUTO NS</string>
+    <string name="header_three">HOME INSURANCE</string>
+    <string name="button_three">HOME NL</string>
+    <string name="button_four">HOME NS</string>
+    <string name="header_four">OR CALL</string>
+    <string name="header_five">1-844-554-0525</string>
+    <string name="title_activity_discount">Discounts</string>
+    <string name="discount_header_one">Special discounts for our groups.</string>
+    <string name="discount_header_two">If you are a member of one of our preferred groups or sectors, please contact us as additional discounts that are not included in the online quote may apply.</string>
+
+</resources>
