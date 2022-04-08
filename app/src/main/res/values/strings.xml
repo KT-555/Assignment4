@@ -24,4 +24,30 @@
     <string name="discount_header_one">Special discounts for our groups.</string>
     <string name="discount_header_two">If you are a member of one of our preferred groups or sectors, please contact us as additional discounts that are not included in the online quote may apply.</string>
 
+    <string name="scroll_header_one">Welcome</string>
+    <string name="scroll_header_two">For your convenience, please have your current home insurance policy information at hand.</string>
+    <string name="scroll_header_three">Postal code of the insured residence</string>
+    <string name="scroll_header_four">Type of property insurance policy</string>
+    <string name="scroll_header_five">When do you need the policy to begin?</string>
+    <string name="scroll_header_six">First Name</string>
+    <string name="scroll_header_seven">Last Name</string>
+    <string name="scroll_header_eight">Phone</string>
+    <string name="scroll_header_nine">Email</string>
+    <string name="scroll_header_ten">Street Address</string>
+    <string name="scroll_header_eleven">Dwelling Information</string>
+    <string name="scroll_header_twelve">Content replacement cost</string>
+    <string name="scroll_header_thirteen">Estimate the total cost to replace your belongings with new items: appliances, furniture, clothing, bicycles, computers, etc. This is not what the items are currently worth.</string>
+    <string name="scroll_header_14">Distance to Fire Hydrant?</string>
+    <string name="scroll_header_15">Distance to Fire Hall?</string>
+    <string name="scroll_header_16">Years at Current Address</string>
+    <string name="scroll_header_17">Years</string>
+
+
+
+
+    <string name="scroll_button_one">Submit</string>
+    <string name="scroll_dollar">$</string>
+
+
+
 </resources>
