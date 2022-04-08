@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blueGrey"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/app_bar_discount">
 
@@ -27,8 +28,11 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="153dp"
+        android:layout_marginBottom="549dp"
         android:text="@string/discount_header_one"
+        android:textColor="@color/blue"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
         app:layout_constraintEnd_toEndOf="@+id/nav_host_fragment_content_discount"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_discount"
@@ -36,98 +40,161 @@
 
     <TextView
         android:id="@+id/discountHeaderTwo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="390dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="461dp"
         android:text="@string/discount_header_two"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="155dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount" />
 
     <TextView
         android:id="@+id/discountHeader3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="409dp"
+        android:autoLink="phone"
+        android:linksClickable="true"
         android:text="@string/header_five"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="247dp" />
+        android:textColorLink="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toEndOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/torbayicon"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="484dp" />
+        android:layout_marginTop="468dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/torbayicon" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/alliedicon"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="484dp" />
+        android:layout_marginTop="468dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/alliedicon" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="75dp"
+        android:layout_width="359dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/technlicon"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="584dp" />
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="559dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toEndOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintStart_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/technlicon" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/caaicon"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="217dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/caaicon" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/educatorsicon"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:layout_marginTop="267dp"
+        android:layout_marginBottom="317dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/educatorsicon" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/firstrespondericon"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:layout_marginBottom="317dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/firstrespondericon" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/noiaicon"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="217dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/noiaicon" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/panlicon"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="484dp" />
+        android:layout_marginTop="468dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/panlicon" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/stbonaventureicon"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="283dp" />
+        android:layout_marginTop="267dp"
+        android:layout_marginBottom="317dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/stbonaventureicon" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="75dp"
+        android:layout_width="119dp"
         android:layout_height="75dp"
-        app:srcCompat="@drawable/group_icon_health"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="217dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nav_host_fragment_content_discount"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_content_discount"
+        app:srcCompat="@drawable/group_icon_health" />
 </androidx.constraintlayout.widget.ConstraintLayout>
