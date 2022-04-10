@@ -213,6 +213,11 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+
+    #Alerts
+    <string name="dialogTitle">ERROR</string>
+    <string name="dialogMessage">Missing Field(s)</string>
+
     <string name="hello_first_fragment"> </string>
     <string name="hello_second_fragment"> </string>
 </resources>

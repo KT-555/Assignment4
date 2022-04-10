@@ -1,4 +1,4 @@
-package com.assignments.assignment4.ui
+package com.assignments.assignment4
 
 import android.os.Bundle
 import android.view.Menu

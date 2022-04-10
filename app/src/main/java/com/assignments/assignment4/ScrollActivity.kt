@@ -1,11 +1,12 @@
 package com.assignments.assignment4
 
 
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -22,12 +23,12 @@ class ScrollActivity : AppCompatActivity() {
         var email = findViewById<EditText>(R.id.email)
         var streetAddress = findViewById<EditText>(R.id.streetAddress)
         var dwellingInfo = findViewById<EditText>(R.id.dwellingInfo)
+        var yearsOne = findViewById<EditText>(R.id.yearOne)
         var yearsTwo = findViewById<EditText>(R.id.years2)
         var dollarAmount = findViewById<EditText>(R.id.dollarAmount)
         var yearsThree = findViewById<EditText>(R.id.year3)
         var yearsFour = findViewById<EditText>(R.id.year4)
         var yearsBuilt = findViewById<EditText>(R.id.yearBuilt)
-
 
         fun validationCheck(): Boolean {
 
@@ -44,11 +45,11 @@ class ScrollActivity : AppCompatActivity() {
                 lastName.setError("This field is required")
                 return false
             }
-            if (phone.length() == 0) {
-                phone.setError("This field is required")
+            if (phone.length() <7) {
+                phone.setError("This field is required and must be 7 digits")
                 return false
             }
-            if (email.length() == 0) {
+            if (email.length() == 4){
                 email.setError("This field is required")
                 return false
             }
@@ -59,6 +60,10 @@ class ScrollActivity : AppCompatActivity() {
             }
             if (dwellingInfo.length() == 0) {
                 dwellingInfo.setError("This field is required")
+                return false
+            }
+            if (yearsOne.length() == 0) {
+                yearsOne.setError("This field is required")
                 return false
             }
             if (yearsTwo.length() == 0) {
@@ -81,8 +86,10 @@ class ScrollActivity : AppCompatActivity() {
                 dollarAmount.setError("This field is required")
                 return false
             }
+
             return true
         }
+
 
 
         val buttonClickSub = findViewById<Button>(R.id.submitButton1)
@@ -91,7 +98,13 @@ class ScrollActivity : AppCompatActivity() {
             if (validationCheck() == true) {
                 startActivity(intent)
 
-
+            } else {
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle(R.string.dialogTitle)
+                builder.setMessage(R.string.dialogMessage)
+                val alertDialog: AlertDialog = builder.create()
+                alertDialog.setCancelable(true)
+                alertDialog.show()
             }
         }
     }
