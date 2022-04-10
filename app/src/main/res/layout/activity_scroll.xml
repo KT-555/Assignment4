@@ -8,8 +8,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-211dp">
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="-120dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,18 +27,23 @@
                 android:id="@+id/tv_long4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/scroll_header_one"></TextView>
+                android:padding="10dp"
+                android:text="@string/scroll_header_one"
+                android:textSize="24sp"></TextView>
 
             <TextView
                 android:id="@+id/tv_long"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/discount_header_two"></TextView>
+                android:padding="10dp"
+                android:text="@string/discount_header_two"
+                android:textSize="20sp"></TextView>
 
             <TextView
                 android:id="@+id/tv_long2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:padding="10dp"
                 android:text="@string/scroll_header_three"></TextView>
 
             <EditText
@@ -46,23 +52,28 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/tv_long3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:padding="10dp"
                 android:text="@string/scroll_header_four"></TextView>
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/InsuranceType"
+                android:padding="10dp" />
 
             <TextView
                 android:id="@+id/tv_long6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:padding="10dp"
                 android:text="@string/scroll_header_five"></TextView>
 
             <LinearLayout
@@ -72,22 +83,27 @@
 
                 <Spinner
                     android:id="@+id/spinner4"
-                    android:layout_width="104dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/Months"
+                    android:padding="10dp" />
 
                 <Spinner
                     android:id="@+id/spinner3"
                     android:layout_width="107dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:entries="@array/Days"
+                    android:padding="10dp" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName2"
-                    android:layout_width="199dp"
+                    android:layout_width="33dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:padding="10dp"
+                    android:text="@string/Plain8" />
 
             </LinearLayout>
 
@@ -95,6 +111,7 @@
                 android:id="@+id/tv_long5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:padding="10dp"
                 android:text="@string/scroll_header_six"></TextView>
 
             <EditText
@@ -103,12 +120,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_seven" />
 
             <EditText
@@ -117,12 +136,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_eight" />
 
             <EditText
@@ -131,12 +152,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_nine" />
 
             <EditText
@@ -145,12 +168,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_ten" />
 
             <EditText
@@ -159,12 +184,14 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_eleven" />
 
             <EditText
@@ -173,24 +200,30 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/scroll_header_eleven" />
+                android:padding="10dp"
+                android:text="@string/scroll_header_eleven"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/scroll_header_twelve" />
+                android:padding="10dp"
+                android:text="@string/scroll_header_twelve"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
+                android:layout_height="78dp"
+                android:padding="10dp"
                 android:text="@string/scroll_header_thirteen" />
 
             <LinearLayout
@@ -200,8 +233,9 @@
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="37dp"
-                    android:layout_height="25dp"
+                    android:layout_width="42dp"
+                    android:layout_height="44dp"
+                    android:padding="10dp"
                     android:text="@string/scroll_dollar" />
 
                 <EditText
@@ -211,60 +245,482 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:padding="10dp"
+                    android:text="@string/Plain8" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_14" />
 
             <Spinner
                 android:id="@+id/spinner5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/FireHydrant"
+                android:padding="10dp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_15" />
 
             <Spinner
                 android:id="@+id/spinner6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:entries="@array/FireHall"
+                android:padding="10dp" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="@string/scroll_header_16" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName11"
+                    android:layout_width="139dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:text="@string/Plain8" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/scroll_header_17" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio4" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio5" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="67dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio6" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_19"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_19" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/BuildingType"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_20" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ConstructionType"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_21" />
+
             <EditText
-                android:id="@+id/editTextTextPersonName11"
-                android:layout_width="139dp"
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name" />
+                android:padding="10dp"
+                android:text="@string/Plain8" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/scroll_header_17" />
+                android:padding="10dp"
+                android:text="@string/scroll_header_22" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/HeatingType"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_23" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/HeatingType"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio7" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio9" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_25" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio7" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio9" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_32"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_26" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner13"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:entries="@array/Months"
+                    android:padding="10dp" />
+
+                <Spinner
+                    android:id="@+id/spinner12"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:entries="@array/Days"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:text="@string/Plain8" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_27" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/radio12" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/radio13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/scroll_header_28" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/scroll_header_17" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="@string/Plain8" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_29" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio10" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio11" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio10" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio11" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/scroll_header_31" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/radio12" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/radio13" />
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_act"
-                android:layout_width="wrap_content"
+                android:id="@+id/submitButton1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/scroll_button_one"></Button>
+                android:backgroundTint="@color/red"
+                android:padding="10dp"
+                android:text="@string/scroll_button_one" />
 
 
         </LinearLayout>

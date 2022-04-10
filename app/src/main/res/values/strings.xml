@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">Assignment4</string>
+    <string name="app_name">MUNN Insurance</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">MUNN Insurance</string>
+    <string name="nav_header_subtitle">example@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Tips</string>
+    <string name="menu_slideshow">Login</string>
 
+    #MainActivity TextViews
     <string name="header_one">Get a Quote Online Now!</string>
     <string name="header_two">AUTO INSURANCE</string>
     <string name="button_one">AUTO NL</string>
@@ -25,6 +26,7 @@
     <string name="discount_header_one">Special discounts for our groups.</string>
     <string name="discount_header_two">If you are a member of one of our preferred groups or sectors, please contact us as additional discounts that are not included in the online quote may apply.</string>
 
+    #Scroling TextViews
     <string name="scroll_header_one">Welcome</string>
     <string name="scroll_header_two">For your convenience, please have your current home insurance policy information at hand.</string>
     <string name="scroll_header_three">Postal code of the insured residence</string>
@@ -42,13 +44,175 @@
     <string name="scroll_header_15">Distance to Fire Hall?</string>
     <string name="scroll_header_16">Years at Current Address</string>
     <string name="scroll_header_17">Years</string>
+    <string name="scroll_header_18">Number of Families Occupying the Dwelling?</string>
+    <string name="scroll_header_19">Building Type</string>
+    <string name="scroll_header_20">Construction Type</string>
+    <string name="scroll_header_21">Year Built</string>
+    <string name="scroll_header_22">Primary Heating Source</string>
+    <string name="scroll_header_23">Auxiliary Heating Source</string>
+    <string name="scroll_header_24">Burglar Alarm</string>
+    <string name="scroll_header_25">Fire Alarm</string>
+    <string name="scroll_header_32">Applicant</string>
+    <string name="scroll_header_26">Date of Birth</string>
+    <string name="scroll_header_27">Co-Applicant</string>
+    <string name="scroll_header_28">Years with Residential Insurance</string>
+    <string name="scroll_header_29">Number of Claims in Last 10 Years</string>
+    <string name="scroll_header_30">Number of Mortgages for this Dwelling</string>
+    <string name="scroll_header_31">Are all Members of the Household Non-Smokers?</string>
+
+    #SubmissionStrings
+    <string name="submission_header_1">Thank you for choosing Munn Insurance!</string>
+    <string name="submission_header_2">Click below to send a quote email!</string>
+
+
+    #RadioButtons
+    <string name="radio1">1</string>
+    <string name="radio2">2</string>
+    <string name="radio3">3</string>
+    <string name="radio4">4</string>
+    <string name="radio5">5</string>
+    <string name="radio6">6</string>
+    <string name="radio7">None</string>
+    <string name="radio8">Local</string>
+    <string name="radio9">Monitored</string>
+    <string name="radio10">0</string>
+    <string name="radio11">3+</string>
+    <string name="radio12">Yes</string>
+    <string name="radio13">No</string>
+
+    #ScrollPlainText
+    <string name="Plain8"></string>
+
+    #DiscountsSubtitles
+    <string name="discountSub1">First Responders</string>
+    <string name="discountSub2">St. Bonaventures College</string>
+    <string name="discountSub3">Educators and Instructors</string>
+    <string name="discountSub4">Healthcare</string>
+    <string name="discountSub5">CAA Members</string>
+    <string name="discountSub6">NOIA</string>
+    <string name="discountSub7">Town of Torbay</string>
+    <string name="discountSub8">PANL</string>
+    <string name="discountSub9">Allied Health</string>
+    <string name="discountSub10">Tech NL</string>
 
 
 
 
+    #Misc
     <string name="scroll_button_one">Submit</string>
     <string name="scroll_dollar">$</string>
 
+    <string name="spin">Spinner</string>
+    <string name="selected_item">Select item</string>
 
+    #SpinnerArrays
+    <string-array name="InsuranceType">
+        <item>Homeowner</item>
+        <item>Condominium</item>
+        <item>Tenant</item>
+    </string-array>
 
+    <string-array name="Months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>Novemeber</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="Days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="FireHydrant">
+        <item>within 150m</item>
+        <item>within 300m</item>
+        <item>over 300m</item>
+    </string-array>
+
+    <string-array name="FireHall">
+        <item>within 5km</item>
+        <item>within 8km</item>
+        <item>within 13km</item>
+        <item>over 13km</item>
+    </string-array>
+
+    <string-array name="BuildingType">
+        <item>Detached Home</item>
+        <item>Semi Detached Home</item>
+        <item>Row/Townhouse - End Unit</item>
+        <item>Row/Townhouse - Inner Unit</item>
+        <item>Duplex Side By Side</item>
+        <item>Duplex Up and Down</item>
+        <item>Triplex</item>
+    </string-array>
+
+    <string-array name="ConstructionType">
+        <item>Solid Brick/Masonry</item>
+        <item>Wood Frame</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="HeatingType">
+        <item>Central Furnace - Oil</item>
+        <item>Central Furnace - Gas</item>
+        <item>Central Furnace - Propane</item>
+        <item>Central Furnace - Wood</item>
+        <item>Electric</item>
+        <item>Steam</item>
+        <item>Combination Furnace</item>
+        <item>Solid Fuel</item>
+        <item>Heat Pump</item>
+        <item>Other</item>
+    </string-array>
+
+    #Email
+    <string name="email1">junk277@outlook.com</string>
+
+    <string name="title_activity_submission">SubmissionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label"> </string>
+    <string name="second_fragment_label"> </string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment"> </string>
+    <string name="hello_second_fragment"> </string>
 </resources>

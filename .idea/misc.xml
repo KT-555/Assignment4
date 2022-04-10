@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1765" />
         <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/activity_scroll.xml" value="0.25" />
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/activity_scroll.xml" value="0.33471933471933474" />
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/activity_submission.xml" value="0.25" />
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/activity_submission1.xml" value="0.234375" />
         <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/app_bar_discount.xml" value="0.25" />
         <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/content_discount.xml" value="0.209375" />
         <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/content_main.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/fragment_gallery.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/Tucke/AndroidStudioProjects/Assignment4/app/src/main/res/layout/nav_header_main.xml" value="0.16770833333333332" />
       </map>
     </option>
   </component>
